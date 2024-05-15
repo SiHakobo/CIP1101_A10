@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 401px;
+        fill: #fff;
+        font-family: Georgia;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 221px;
+      }
+    </style>
+  </defs>
+  <text id="F." class="cls-1" x="72.705" y="431.589">F<tspan class="cls-2">.</tspan></text>
+</svg>

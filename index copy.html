@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Gothic+A1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
         <script src="js/bootstrap.bundle.min.js"></script>
@@ -12,88 +9,84 @@
         <style></style>
     </head>
     <body>
-        <div class="container-fluid m-0">
-            <!-- HEADER -->
-            <div class="row">
-                <div class="col-4"></div>
-                <div class="col-4">
-                    <div class="container-fluid align-items-center m-0">
-                        <div class="banner">
-                            <img src="banner.svg" alt="" width="100%">
-                        </div>
-                    </div>
+        <!-- HEADER -->
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col-2">
+                <div class="container-fluid m-0">
+                    <h1 class="banner">Banner</h1>
                 </div>
-                <div class="col-4"></div>
             </div>
-            <!-- NAVBAR -->
-                <div class="row sticky-top bg-white mb-1 shadow-sm navbar-md">
-                    <div class="col-1"></div>
-                    <div class="col-10">
-                        <nav class="navbar navbar-expand-lg">
-                            <div class="container-fluid p-0 my-1">
-                                <a href="#" class="navbar-brand px-0 m-0">
-                                    <div class="logo" style="width: 100px;">
-                                        <img src="logo.svg" alt="F" style="width:100%">
+            <div class="col-5"></div>
+        </div>
+        <!-- NAVBAR -->
+            <div class="row sticky-top bg-white mb-1 shadow-sm navbar-md">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid m-1">
+                            <a href="#" class="navbar-brand p-0 m-0">
+                                <h1 class="logo">Logo</h1>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDisp">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-center" id="navbarDisp">
+                                <div class="navbar-nav ">
+                                    <div class="nav1">
+                                        <ul class="navbar-nav nav-underline py-3">
+                                            <li class="nav-item"><a href="#" class="nav-link mx-1 active">HOME</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link mx-1 ">LOCAL</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link mx-1 ">WEATHER</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link mx-1 ">SHOWBIZ</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link mx-1 ">SPORTS</a></li>
+                                        </ul>
                                     </div>
-                                </a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDisp">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse justify-content-center" id="navbarDisp">
-                                    <div class="navbar-nav ">
-                                        <div class="nav1">
-                                            <ul class="navbar-nav nav-underline p-3">
-                                                <li class="nav-item"><a href="#" class="nav-link mx-1 active">HOME</a></li>
-                                                <li class="nav-item"><a href="#" class="nav-link mx-1 text-center ">LOCAL</a></li>
-                                                <li class="nav-item"><a href="#" class="nav-link mx-1 ">WEATHER</a></li>
-                                                <li class="nav-item"><a href="#" class="nav-link mx-1 ">SHOWBIZ</a></li>
-                                                <li class="nav-item dropdown">
-                                                    <a href="#" class="nav-link dropdown-toggle mx-1" role="button" data-bs-toggle="dropdown">SPORTS</a>
-                                                    <ul class="dropdown-menu" data-bs-theme="dark">
-                                                      <li><a href="#" class="dropdown-item">Tinig</a></li>
-                                                      <li><a href="#" class="dropdown-item">Tugon</a></li>
-                                                    </ul>
-                                                  </li>
-                                                <li class="nav-item"><a href="#" class="nav-link mx-1 ">REFERENCES</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                    <!-- <div class="nav2">
+                                        <ul class="navbar-nav nav-underline py-3">
+                                            <li class="nav-item"><a href="#" class="nav-link mx-1 active">HOME</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link mx-1 ">LOCAL</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link mx-1 ">WEATHER</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link mx-1 ">SHOWBIZ</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link mx-1 ">SPORTS</a></li>
+                                        </ul>
+                                    </div> -->
                                 </div>
                             </div>
-                        </nav>
-                    </div>
-                    <div class="col-1"></div>
+                        </div>
+                    </nav>
                 </div>
-            <!-- NAVBAR2 -->
-                <div class="row sticky-top bg-white mb-1 shadow-sm navbar-mds">
-                    <div class="col-1"></div>
-                    <div class="col-10">
-                        <nav class="navbar navbar-expand-lg">
-                            <div class="container-fluid m-1">
-                                <a href="#" class="navbar-brand p-0 m-0">
-                                    <div style="width: 400px;">
-                                        <img src="banner.svg" alt="F" style="width:100%">
-                                    </div>
-                                </a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDisp">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse justify-content-center" id="navbarDisp">
-                                    <div class="navbar-nav ">
-                                            <ul class="navbar-nav nav-underline py-3">
-                                                <li class="nav-item"><a href="#" class="nav-link mx-1 active">HOME</a></li>
-                                                <li class="nav-item"><a href="#" class="nav-link mx-1 ">LOCAL NEWS</a></li>
-                                                <li class="nav-item"><a href="#" class="nav-link mx-1 ">WEATHER</a></li>
-                                                <li class="nav-item"><a href="#" class="nav-link mx-1 ">SHOWBIZ</a></li>
-                                                <li class="nav-item"><a href="#" class="nav-link mx-1 ">REFERENCES</a></li>
-                                            </ul>
-                                    </div>
+                <div class="col-1"></div>
+            </div>
+        <!-- NAVBAR2 -->
+            <div class="row sticky-top bg-white mb-1 shadow-sm navbar-mds">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid m-1">
+                            <a href="#" class="navbar-brand p-0 m-0">
+                                <h1>Logo</h1>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDisp">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-center" id="navbarDisp">
+                                <div class="navbar-nav ">
+                                        <ul class="navbar-nav nav-underline py-3">
+                                            <li class="nav-item"><a href="#" class="nav-link mx-1 active">HOME</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link mx-1 ">LOCAL</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link mx-1 ">WEATHER</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link mx-1 ">SHOWBIZ</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link mx-1 ">SPORTS</a></li>
+                                        </ul>
                                 </div>
                             </div>
-                        </nav>
-                    </div>
-                    <div class="col-1"></div>
+                        </div>
+                    </nav>
                 </div>
+                <div class="col-1"></div>
+            </div>
+        <div class="container-fluid m-0">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat enim est, id luctus nunc fermentum vel. Nullam faucibus erat mi, vitae finibus sem rutrum sit amet. Ut a libero congue, interdum nisi scelerisque, pharetra augue. Aenean finibus dolor nunc, at consequat turpis consectetur eu. Ut imperdiet sem in orci pretium, sed pharetra ligula accumsan. Etiam eleifend elit in pretium lacinia. Ut turpis magna, fringilla quis viverra at, efficitur at tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse ornare tellus erat, at pulvinar metus pharetra eu. Pellentesque commodo eget mi accumsan tristique. Ut ac odio nec lacus tincidunt venenatis. Morbi maximus sed orci vitae sodales. Fusce vulputate augue vel justo euismod, vitae euismod turpis rutrum.
 
                 Nam euismod nisl pulvinar leo auctor, eget consectetur massa pretium. Quisque porttitor metus ac purus ultrices vulputate. Aliquam pellentesque felis sapien, congue posuere tellus tristique at. Praesent sed turpis ullamcorper, hendrerit massa nec, mollis metus. Suspendisse accumsan elementum mauris, nec interdum risus lacinia non. Proin ac metus non augue ornare rhoncus. Morbi tempor euismod sem, a laoreet velit pellentesque eu. Nullam vestibulum ipsum ac eleifend vestibulum. Integer fermentum dui sed viverra facilisis. Sed ut luctus orci. Quisque in laoreet felis. Suspendisse accumsan eu dui in sollicitudin. Praesent placerat consectetur metus vitae ultricies. Sed tincidunt nec tellus id volutpat.
@@ -134,36 +127,38 @@
                     Aliquam viverra laoreet est, sed iaculis tellus euismod eget. Nunc euismod, odio quis rhoncus consectetur, libero orci rutrum ipsum, sed elementum sem diam at nisl. Ut tempor sollicitudin turpis quis congue. Donec ornare pulvinar ante, sed eleifend orci facilisis ut. Etiam posuere elit quis nunc porttitor scelerisque. Praesent egestas eu neque eu iaculis. In sed risus a ligula pharetra ullamcorper. Quisque tempus mi eu cursus auctor. Duis elementum erat dui, id sollicitudin tortor vulputate at. In sagittis tellus nec tellus aliquet, ut tincidunt massa pharetra. Cras eu mauris aliquet, malesuada dui in, tincidunt nunc.</p>
 
         </div>
-        <div class="container-fluid mb-0 pt-3 bg-black">
-            <div class="container">
-                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 mb-0 border-top border-secondary">
-                  <p class="col-md-4 mb-0 text-secondary text-align-center">© 2024 Filipino Frontline Corporation. All Rights Reserved.</p>
-              
-                  <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                    <img src="bannerw.svg" alt="Filipino Frontline" style="width: 80%;">
-                  </a>
-              
-                  <ul class="nav col-md-4 justify-content-end">
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-white link-secondary">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-white link-secondary">Local News</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-white link-secondary">Weather</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-white link-secondary">Showbiz</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-white link-secondary">Sports</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-white link-secondary">References</a></li>
-                  </ul>
-                </footer>
-              </div>
-        </div>
+        <footer class="p-0 bg-black text-white pt-5 pb-4">
+            <div class="container-fluid">
+                <div class="col-10 my-5">
+                    <div class="row">
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3"></div>
+                        <h3 class="p-0">Sections</h3>
+                    </div>
+                    <!-- <div class="row">
+                        <hr class="mt-3">
+                        <a href="#" class="navbar-brand p-0 m-0">
+                            <h1>Logo</h1>
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+        </footer>    
     </body>
     <script>
         $('.logo').hide();
+        $('.nav2').hide();
 
         $(window).scroll(function() {
-            if ($(this).scrollTop() >= 200) {
+            if ($(this).scrollTop() >= 100) {
             $('.logo').slideDown();
+            $('.nav2').fadeIn();
+            $('.nav1').hide();
+            $('.nav1').fadeIn();
             console.log ($(this).scrollTop());
             } else {
-            $('.logo').fadeOut();
+            $('.logo').hide();
+            $('.nav2').hide();
+            $('.nav1').fadeIn();
             console.log ($(this).scrollTop());
             }
         });

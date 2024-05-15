@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
   }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 .banner {
     text-align: center;
     margin-bottom: 3rem;
